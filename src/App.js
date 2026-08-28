@@ -31,7 +31,7 @@ function App() {
           <label>RollNo:</label>
           <input type="text" /><br />
           {
-            isLoggedIn ? (<h2>Welcome Student{Name}</h2>) : 
+            isLoggedIn ? (<h2>Welcome Student{Name:}</h2>) : 
             (<button type="button" onClick={() => setLogin(true)}>Login</button>)
           }
         </form>
