@@ -25,13 +25,13 @@ function App() {
       <div>
         <form method="GET">
           <label>Name:</label>
-          <input type="text" /> <br />
+          <input type="text" placeholder="Enter your name" /> <br />
           <label>Dept:</label>
-          <input type="text" /> <br />
+          <input type="text" placeholder="Enter your department name" /> <br />
           <label>RollNo:</label>
-          <input type="text" /><br />
+          <input type="text"  placeholder="Enter your rollno" /><br />
           {
-            isLoggedIn ? (<h2>Welcome Student{Name:}</h2>) : 
+            isLoggedIn ? (<h2>Welcome Student</h2>) : 
             (<button type="button" onClick={() => setLogin(true)}>Login</button>)
           }
         </form>
